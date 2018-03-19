@@ -1,0 +1,40 @@
+body {
+    background-color: #040404;
+}
+
+canvas {
+    margin-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+    
+    border-style: solid;
+    border-width: 5px;
+    border-color: currentColor;
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: whitesmoke;
+    
+}
+
+#pong {
+    text-align: center;
+    color: limegreen;
+}
+
+#start {
+     background-color: limegreen;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    color: #040404;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="pong.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id="pong">
+        <h1>Pong Game</h1>
+        <input id="start" type="button" value="Start Game" />
+    </div>
+    <div id="container">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("#gameCanvas").hide();
+            $("#start").click(function() {
+                $("#gameCanvas").show();
+                $("#start").hide();
+            });
+        });
+    </script>
+
+    <script type="text/javascript" src="pong.js"></script>
+    <script type="text/javascript"></script>
+
+</body>
+</html>
