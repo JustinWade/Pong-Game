@@ -1,2 +1,2 @@
-# Udemy-Pong-Game
-Udemy Course. Pong game.
+#Pong-Game
+Pong game built using javascript, html, css.
